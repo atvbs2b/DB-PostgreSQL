@@ -9,7 +9,7 @@ SET
 DROP TABLE IF EXISTS users;
 
 -- ユーザ情報を保持するテーブルを作成する
-CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT NOT NULL, age INTEGER);
+CREATE TABLE users (id INTEGER PRIMARY KEY, name VARCHAR(16) NOT NULL, age INTEGER);
 
 -- テーブルにレコード（ユーザ情報）を挿入する
 INSERT INTO
